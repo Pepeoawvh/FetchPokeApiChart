@@ -1,0 +1,33 @@
+#tarjetaPersonaje{
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(252, 244, 232);
+    display: grid;
+    grid-template-rows: 1fr 1r 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.imgtarjeta{
+height: 300px;
+}
+#imgDefaults{
+    display: grid;
+    height: 100%;
+    background-color: rgb(252, 244, 232);
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    border-bottom: solid 1px;
+ }
+.imgmini{
+    width: 20%;
+}
+ #titulos{
+text-align: center;
+ }
+ .chart{
+    height: 300px;
+    width: 300px;
+    justify-items: center;
+ }
+
